@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+        body{
+            background-image: url(https://images2.imgbox.com/0c/94/OjWU2IGD_o.jpg);
+            padding-top: 7.5%;
+            padding-right: 10%;
+            padding-left: 10%;
+
+            
+        }
+
+        .container{
+            background-color:rgb(183, 216, 237);
+            border-radius: 10px;
+            padding: 15%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: minmax(50px,auto);
+            grid-auto-columns: minmax(100px,auto);
+              
+        }
+        
+
+        .middle-card{
+            
+            background-color: white;
+            border-radius: 10px;
+            padding:5%;
+            text-align: center;
+            display: grid;
+            box-shadow: 0 0 5px grey;
+            
+           
+        }
+
+        h2,p{
+        font-family: ubuntu;
+        padding-right: 5%;
+        padding-left: 5%;
+        word-spacing: 0.2px;
+        
+        }
+
+        h2{
+            font-size: small;
+            padding-bottom: 0px;
+        }
+       
+        
+        p{
+            padding-top: 0px;
+           font-size: x-small;
+        }
+
+        .qrcode{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card"></div>
+        
+        <div class="card middle-card">
+            <div><img src="https://images2.imgbox.com/71/d4/SQux1Oo4_o.png" alt="" class="qrcode"></div>
+            <h2>Improve your front end skills by building projects</h2>
+            <p>Scan the QR Code to visit Frontend Mentorand take your coding skills to next level</p>
+        </div>
+
+        <div class="card"></div>
+    </div>
+    
+</body>
+</html>
